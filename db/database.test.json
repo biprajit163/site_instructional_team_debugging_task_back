@@ -1,49 +1,40 @@
 {
   "users": [
     {
-      "userId": "UDpVgsOfwh1a1fSMjmiWC",
+      "userId": "_r0h5Bz4JenFF7SEy-jL7",
       "username": "jlo",
       "firstName": "Jennifer",
       "lastName": "Lopez",
       "email": "jennifer@lopez.io",
-      "password": "$2b$12$ME4TAfZ5kXAm18cBGeulDu5YCEHuq93V3ZAW5qGQf90jLglEb.tje",
+      "password": "$2b$13$neZ.K/IHWbmW4CN4YGbf4.aqyzinyFu8xQzunifi.ooqyLtsbrqCy",
       "isAdmin": false
     },
     {
-      "userId": "wPKxMsRw2ZLUI8Q93fMmq",
+      "userId": "WKzx_7hBAb_ZfzAkM0Fpe",
       "username": "admin",
       "firstName": "admin",
       "lastName": "admin",
       "email": "admin@admin.io",
-      "password": "$2b$12$CFuF6zGeSuCz/vM6H7sY6ufQKg/DwSf/tUm8G2/Pk4F2t67ZjO9oi",
+      "password": "$2b$13$AuCZbMheUiXka079ZKcRX.uAOgs4z1tEvk0/YI1MCJagTTZVf7ARG",
       "isAdmin": true
     },
     {
-      "userId": "yn4jhiWhAihNkcIOyZLFX",
+      "userId": "8_-0gyFi5X7NeIMkfD-YR",
       "username": "lebron",
       "firstName": "Lebron",
       "lastName": "James",
       "email": "lebron@james.io",
-      "password": "$2b$12$2cDHtwQgH.TFm51.xixIpOf9wEZZ66IusgMK937nB/L2AxODiGMJS",
+      "password": "$2b$13$b8jG4iaFjqDzbAdK8By6leZ3RjGeV1DCI9pc/X8lsaz8FMP2GA3ra",
       "isAdmin": false
     },
     {
-      "userId": "wAnxsxJbeA51gs0Mk69Rq",
+      "userId": "Cn5RSaa0S9n99CYSRIq3C",
       "username": "serena",
       "firstName": "Serena",
       "lastName": "Williams",
       "email": "serena@williams.io",
-      "password": "$2b$12$LA1KAGAZHzUKGkxraRoClOsZ46xnmT6YxWuyYEJg5k7Iu29.uzrLW",
+      "password": "$2b$13$1TKxFr01FaEbkxWU36lT/.pIuhb4V7fuEXWBro8FY2bBTloYE2.cu",
       "isAdmin": true
-    },
-    {
-      "userId": "UI8B9v9pg8mCDCO77sOBx",
-      "username": "mister_person",
-      "firstName": "Mister",
-      "lastName": "Person",
-      "email": "mister@person.io",
-      "password": "$2b$12$SpkD5kgViyrLx8LKeEBzvuGntfml.w3oAVNhNmOa5fuBZyQq2iZxq",
-      "isAdmin": false
     }
   ],
   "listings": [
@@ -202,99 +193,7 @@
       "image3": "https://images.unsplash.com/photo-1542889601-399c4f3a8402?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
       "price": 22382,
       "currency": "USD"
-    },
-    {
-      "id": "zc-qPsaPEPpyXo83xfi0A",
-      "owner": "mister_person",
-      "description": "Something Breezy cabana in Baja California",
-      "title": "Something Breezy cabana in Baja California",
-      "location": "United States",
-      "image": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80",
-      "price": 10000,
-      "currency": "USD"
     }
   ],
-  "transactions": [
-    {
-      "id": "500",
-      "listingId": "10",
-      "bookingUsername": "jlo",
-      "hostUsername": "lebron",
-      "currency": "USD",
-      "paymentMethod": "card",
-      "startDate": "12-12-2021",
-      "endDate": "12-14-2021",
-      "guests": 1
-    },
-    {
-      "id": "540",
-      "listingId": "10",
-      "bookingUsername": "jlo",
-      "hostUsername": "lebron",
-      "currency": "USD",
-      "paymentMethod": "card",
-      "startDate": "12-22-2021",
-      "endDate": "12-24-2021",
-      "guests": 1
-    },
-    {
-      "id": "RZB5ybndVNiOrdMulqpyT",
-      "listingId": "10",
-      "bookingUsername": "jlo",
-      "hostUsername": "lebron",
-      "currency": "USD",
-      "paymentMethod": "card",
-      "startDate": "12-12-2021",
-      "endDate": "12-14-2021",
-      "guests": 1
-    },
-    {
-      "id": "wD-iJSR9LDvoPFAkL5B92",
-      "listingId": "6",
-      "bookingUsername": "mister_person",
-      "hostUsername": "serena",
-      "totalAmount": 19187,
-      "currency": "USD",
-      "paymentMethod": "card",
-      "startDate": "2021-04-19T14:48:49.470Z",
-      "endDate": 1619102929470,
-      "guests": 1
-    },
-    {
-      "id": "bw0Y7krzA6xjrYv_PFLKE",
-      "listingId": "6",
-      "bookingUsername": "mister_person",
-      "hostUsername": "serena",
-      "totalAmount": 19187,
-      "currency": "USD",
-      "paymentMethod": "card",
-      "startDate": "2021-04-19T14:50:23.252Z",
-      "endDate": "2021-04-22T14:50:23.252Z",
-      "guests": 1
-    },
-    {
-      "id": "iNWGss73-BCz267VU1BpI",
-      "listingId": "6",
-      "bookingUsername": "mister_person",
-      "hostUsername": "serena",
-      "totalAmount": 19187,
-      "currency": "USD",
-      "paymentMethod": "card",
-      "startDate": "2021-03-29T14:50:23.000Z",
-      "endDate": "2021-03-28T14:50:23.000Z",
-      "guests": 1
-    },
-    {
-      "id": "PVgg36SAzW5KTP9Zo5TD9",
-      "listingId": "26",
-      "bookingUsername": "jlo",
-      "hostUsername": "lebron",
-      "totalAmount": 42127,
-      "currency": "USD",
-      "paymentMethod": "card",
-      "startDate": "2021-04-19T15:25:31.634Z",
-      "endDate": "2021-04-22T15:25:31.634Z",
-      "guests": 1
-    }
-  ]
+  "transactions": []
 }
