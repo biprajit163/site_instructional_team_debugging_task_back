@@ -1,6 +1,17 @@
 ** What is happening here?
 
 - server.js file is running config.js file and app.js file
+
+
+- What does the config.js file do?
+    - "use strict" = defines that JavaScript Globally should be used in "strict mode"
+    with declaring "strict mode" you can not use undeclared varaibels.
+    - require("dotenv").configure() to get variables from .env file.
+    - they use the (.env.template) file because they don't want to use the postgresql
+    database which will require an actuall username and password. So without actually
+    using the variables set on the .env file they default to "airbnb" database but I 
+    don't think they seeded that database approproiately on any cloud platform.
+        - Normally what I would do is install mongo in my local device and use that
+        as a database for working.
   
 
-  
