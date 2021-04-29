@@ -1,0 +1,6 @@
+** What is happening here?
+
+- server.js file is running config.js file and app.js file
+  
+
+  
