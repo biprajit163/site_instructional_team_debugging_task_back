@@ -1,6 +1,9 @@
 "use strict"
 
-/** Convenience middleware to handle common auth cases in routes. */
+/*  Convenience middleware to handle common auth cases in routes.
+  - jwtFrom() = sees if the header has an authorization token, and returns the token with
+  the label 'Bearer' so maybe in a {key, val}
+*/
 
 const jwt = require("jsonwebtoken")
 const { SECRET_KEY } = require("../config")

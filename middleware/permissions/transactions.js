@@ -2,7 +2,7 @@ const Transaction = require("../../models/listing")
 const { ForbiddenError } = require("../../utils/errors")
 
 /**
- * Checks to make sure that the authenticated user is the host or booking user for the transactiom.
+ * Checks to make sure that the authenticated user is the host or booking user for the transaction.
  * If they aren't, throws a ForbiddenError.
  * Otherwise, attaches the transaction to res.locals
  *

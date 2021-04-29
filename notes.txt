@@ -3,6 +3,15 @@
 - server.js file is running config.js file and app.js file
 
 
+- what does the app.js file do?
+    - It sets up routes for users, listings, and transactions
+    - It has a routes set up for auth/ and security/ (security confuses me a little)
+    - It uses two middleware functions for error handling
+        - 404 error server was not able to find the page
+        - 500 error = generic error message, something went wrong with the websites 
+        server, but can't specify the problem.
+
+
 - What does the config.js file do?
     - "use strict" = defines that JavaScript Globally should be used in "strict mode"
     with declaring "strict mode" you can not use undeclared varaibels.
@@ -14,4 +23,18 @@
         - Normally what I would do is install mongo in my local device and use that
         as a database for working.
   
+
+**database
+    - storage.js --> npm-lowdb -> small JSON Database for Node, Electron, and the browser
+    - using setup() to sync the database.json file as the database
+
+**middleware
+    - listings.js and transactions.js checks to see if the user matches the 
+    transactions or listings
+    - security.js = makes a jwtFrom() function that grabs jwtwebtokens from
+    the res then it extracts the user from the token
+    - checks if the user is loggedIn, check if authenticated user is an admin or
+    if username matches username on route.
+
+**seed.js
 
